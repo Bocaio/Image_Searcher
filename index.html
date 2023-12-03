@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Searcher</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+
+    <H1 class="flex justify-center font-semibold text-4xl py-4">Images Searcher</H1>
+    <form id="inputForm" class="flex justify-center py-2 mt-8">
+        <input id="inputData" type="search" name="" class="bg-[#F0ECE5] outline-none text-black border-2 border-black rounded-xl px-3 py-1 mr-2" id="" placeholder="Search now">
+        <button id="" type="submit" class="border-2 border-black rounded-xl px-3 py-1 mr-2">Enter</button>
+    </form>
+    
+    <!-- main pages -->
+    <div id="searchResults" class="grid grid-cols-2 gap-x-3 gap-y-6 px-6 mt-14 lg:grid-cols-3">
+        <div class="flex flex-col items-center gap-y-1">
+            <img class="w-full rounded-md" src="https://images.unsplash.com/photo-1682687982046-e5e46906bc6e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <a  href="https://unsplash.com/photos/a-person-swimming-in-the-ocean-near-a-coral-reef-mPHOMhm45wk" class="text-lg ">Under the sea</a>
+        </div>
+        <div class="flex flex-col items-center gap-y-1">
+            <img class="w-full rounded-md" src="https://images.unsplash.com/photo-1682687982046-e5e46906bc6e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <a  href="https://unsplash.com/photos/a-person-swimming-in-the-ocean-near-a-coral-reef-mPHOMhm45wk" class="text-lg ">Under the sea</a>
+        </div>
+        <div class="flex flex-col items-center gap-y-1">
+            <img class="w-full rounded-md" src="https://images.unsplash.com/photo-1682687982046-e5e46906bc6e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <a  href="https://unsplash.com/photos/a-person-swimming-in-the-ocean-near-a-coral-reef-mPHOMhm45wk" class="text-lg ">Under the sea</a>
+        </div>
+    </div>
+        <div id="showMore" class="hidden items-center mt-6 px-6 justify-between mb-7">
+
+            <button id="showMoreBTN" class="bg-[#750E21]  text-white border-2 border-black rounded-xl px-3 py-1 mr-2">show more</button>
+            <a  href="#inputData" id="aboveBTN
+            " class="bg-[#750E21]  text-white border-2 border-black rounded-xl px-3 py-1 mr-2">above</a>
+
+        </div>
+    <script src="src/app.js"></script>
+</body>
+</html>
