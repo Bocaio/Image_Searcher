@@ -4,8 +4,8 @@ const inputForm = document.querySelector('#inputForm')
 const inputData = document.querySelector('#inputData')
 const searchResults = document.querySelector('#searchResults')
 const showMoreBTN = document.querySelector('#showMoreBTN')
-const aboveBTN = document.querySelector('#aboveBTN')
-const showMore = document.querySelector('#showMore')
+const aboveBTN = document.querySelector('#aboveBTN');
+const showMore = document.querySelector('#showMore');
 
 let inputText = '';
 let page = 1;
