@@ -40,7 +40,7 @@ async function gettingImage() {
         aboveBTN.classList.add('hidden')
     }
     if(page > 1){
-        console.log("lee");
+        // console.log("lee");
         showMore.classList.remove('hidden');
         showMore.classList.add('flex');
         showMoreBTN.classList.remove('hidden')
